@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-// import App2 from './App2';
+import Start from './Start'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
 
-        {/* <App2 /> */}
+        <Start />
 
         <a
           className="App-link"
@@ -21,11 +21,6 @@ function App() {
         >
           Learn React
         </a>
-        <br /> 
-        <br /> 
-        <br /> 
-        <br /> 
-        <br /> 
       </header>
     </div>
   );
