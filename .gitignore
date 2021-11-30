@@ -23,3 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # .gitignore
+
+
+# image files, wallpapers and icons
+/src/images/wallpapers
