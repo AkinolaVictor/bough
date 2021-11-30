@@ -13,7 +13,20 @@ export default function Desktop() {
         <div className = "desktop">
             {/* z-index of 1 */}
             <div className='topNav'>
-                
+
+                <div className= 'leftFuncs'>
+                    <div className='logo'> B </div>
+                    <p style={{marginLeft: 15+'px'}}>Menu</p>
+                    <p>Search</p>
+                    <p>Notification</p>
+                    <p>Files</p>
+                    <p>Account</p>
+                </div>
+
+                <div className = 'rightFuncs'>
+                    {/* <p>Files</p>
+                    <p>Account</p> */}
+                </div>
             </div>
 
             {/* z-index of 0*/}
