@@ -1,5 +1,5 @@
 import React from 'react'
-import './fontawesome.css'
+import './styles/fontawesome.css'
 
 export default function FontAwesome(props) {
     return (

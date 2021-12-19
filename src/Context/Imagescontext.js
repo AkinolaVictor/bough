@@ -1,4 +1,5 @@
 import React, {createContext, useState} from 'react';
+import mobileImage from "../images/wallpapers/pexels-aleksandar-pasaric-325185.jpg"
 import image from "../images/wallpapers/pexels-riccardo-bertolo-4245826.jpg"
 import call from "../images/icons/calls.png"
 import chats from "../images/icons/chats.png"
@@ -24,6 +25,7 @@ export default function ImagesContextProvider(props) {
     // const [name, setName] = useState('You are yet to input a name')
     const state = {
         image,
+        mobileImage,
         ...navIcons,
         logger
     }

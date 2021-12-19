@@ -1,7 +1,12 @@
 .App {
   text-align: center;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
+
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: 'Outfit', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .App-logo {

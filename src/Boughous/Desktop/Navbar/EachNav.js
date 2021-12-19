@@ -1,9 +1,9 @@
 import React from 'react'
-import './eachNav.css'
+import './styles/eachNav.css'
 
 export default function EachNav(props) {
     return (
-        <div className =  {`${props.iconBg} eachnav`}>
+        <div onClick = {props.click} className =  {`${props.iconBg} eachnav`}>
             {/* <i class="fa-solid fa-phone"></i> */}
             {/* <p>{props.name}</p> */}
             <img src= {props.icon} alt="" className='imageIcon'/>

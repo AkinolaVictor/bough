@@ -26,6 +26,8 @@
     color: white;
 }
 
+
+
 .imageIcon:hover + .iconName {
     margin-top: 5px;
     display: block;

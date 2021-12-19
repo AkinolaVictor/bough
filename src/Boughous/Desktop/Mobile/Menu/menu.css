@@ -1,0 +1,101 @@
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuIconz{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 13px #888;
+}
+
+.menuContent{
+    width: auto;
+    max-width: calc(100vw - 100px);
+    height: auto;
+    max-height: 200px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgba(211, 206, 219, 0.603);
+    box-shadow: 5px 5px 13px #888;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    margin-top: 5px;
+    animation-name: menuContent;
+    animation-duration: 1s;
+}
+
+@keyframes menuContent{
+    0%{
+        width: 0
+    }
+    90%{
+        width: 500px;
+    }
+    100%{
+        width: auto;
+        max-width: calc(100vw - 100px);
+    }
+}
+
+::-webkit-scrollbar {
+    height: 0px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(168, 165, 160);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #388;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+.hide{
+    display: none;
+}
+
+.color1{
+    background-color: rgb(71, 255, 95) !important;
+}
+
+.color2{
+    background-color: rgb(70, 93, 94) !important;
+}
+
+.color3{
+    background-color: tomato !important;
+}
+
+.color4{
+    background-color: rgb(175, 211, 16) !important;
+}
+
+.color5{
+    background-color: tomato !important;
+}
+
+.color6{
+    background-color: rgb(128, 124, 136) !important;
+}
+
+.color7{
+    background-color: rgb(235, 52, 159) !important;
+}
+
+.color8{
+    background-color: rgb(198, 224, 103) !important;
+}
